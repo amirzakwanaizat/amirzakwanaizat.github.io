@@ -1,0 +1,176 @@
+.label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:rgb(0, 0, 0);
+	color:rgb(255, 0, 0);
+	border-radius:50px;
+	text-align:center;
+	/*box-shadow: 2px 2px 3px #999;*/
+	z-index:1000;
+	animation: bot-to-top 2s ease-out;
+}
+
+#buttt{
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.floatingbutt ul{
+	position:fixed;
+	left:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+.floatingbutt ul li{
+	list-style:none;
+	margin-bottom:10px;
+}
+
+.floatingbutt ul li a{
+	background-color:#F33;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	/*box-shadow: 2px 2px 3px #999;*/
+	width:100px;
+	height:30px;
+	display:block;
+}
+
+.floatingbutt ul:hover{
+	visibility:visible!important;
+	opacity:1!important;
+}
+
+.floatingbutt a:hover{
+	background-color: black;
+}
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+.floatingbutt ul li .activefloatingbutt{
+	background-color: black;
+}
+
+a#menu-share + ul{
+  visibility: hidden;
+}
+
+a#menu-share:hover + ul{
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a#menu-share i{
+	animation: rotate-in 0.5s;
+}
+
+a#menu-share:hover > i{
+	animation: rotate-out 0.5s;
+}
+
+#buttt.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes bot-to-top {
+    0%   {bottom:-40px}
+    50%  {bottom:40px}
+}
+
+@keyframes scale-in {
+    from {transform: scale(0);opacity: 0;}
+    to {transform: scale(1);opacity: 1;}
+}
+
+@keyframes rotate-in {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes rotate-out {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
+}
+
+/*floating thing for map for partner*/
+
+.partnermap {
+	width: 100%;
+	height: 420px;
+}
+
+.partnermap .pic {
+	border: 2px solid rgb(241, 240, 240);
+	width: 100%;
+	height: 420px;
+	content: cover;
+}
+
+.partnermap .floatingpartner {
+	width: 90px;
+	height: auto;
+	position: relative;
+	left: 550px;
+	padding-bottom:20px;
+	bottom: 230px;
+	z-index:100;
+	opacity: 0.5;
+}
+
+.partnermap .floatingpartner:hover {
+	opacity: 1;
+}
+
+/*.floatingpartner ul li a{
+	position:fixed;
+	left:40px;
+	padding-bottom:20px;
+	bottom:80px;
+	z-index:100;
+}
+
+.floatingpartner a:hover{
+	color: #333;
+}*/

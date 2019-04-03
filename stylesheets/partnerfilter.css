@@ -1,0 +1,153 @@
+.portfolioFilter {
+  padding: 15px 0;
+}
+
+.portfolioFilter a {
+  margin-right: 6px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.portfolioFilter a.current {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+.portfolioContainer{
+  border-bottom : 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-radius: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+img {
+  margin: 5px;
+  max-width:100%;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+.partnerouter {
+  width : 22%;
+  height : 350px;
+  clear: both;
+  padding-left : 2.5%;
+  padding-right : 2.5%;
+  border: 2px solid #ff0000;
+  margin : 5px;
+}
+
+.partnerinner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mark1 {
+  position: relative;
+  left: 780px;
+  bottom: 310px;
+  width : 20px;
+  height : 20px;
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.mark2 {
+  position: relative;
+  left: 580px;
+  bottom: 340px;
+  width : 20px;
+  height : 20px;
+  background-color: #570a43;
+  border: 1px solid #570a43;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.mark3 {
+  position: relative;
+  left: 670px;
+  bottom: 320px;
+  width : 20px;
+  height : 20px;
+  background-color: #194f8b;
+  border: 1px solid #194f8b;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.mark4 {
+  position: relative;
+  left: 610px;
+  bottom: 310px;
+  width : 20px;
+  height : 20px;
+  background-color: #0e889e;
+  border: 1px solid #0e889e;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.mark5 {
+  position: relative;
+  left: 940px;
+  bottom: 190px;
+  width : 20px;
+  height : 20px;
+  background-color: #12723d;
+  border: 1px solid #12723d;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.mark6 {
+  position: relative;
+  left: 370px;
+  bottom: 410px;
+  width : 20px;
+  height : 20px;
+  background-color: #eaee0b;
+  border: 1px solid #eaee0b;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.showmap {
+  opacity: 1!important;
+}
